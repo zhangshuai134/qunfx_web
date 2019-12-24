@@ -9,7 +9,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '欢迎来到菜鸟教程22222！'
+      msg: '欢迎来到菜鸟教程！'
     }
   }
 }

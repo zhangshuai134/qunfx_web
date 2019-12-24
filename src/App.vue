@@ -1,13 +1,22 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <hello></hello>
+    <helloWorld></helloWorld>
   </div>
 </template>
 
 <script>
+// 导入组件
+import Hello from './components/Hello'
+import HelloWorld from './components/HelloWorld'
+
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    Hello,
+    HelloWorld
+  }
 }
 </script>
 
